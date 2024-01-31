@@ -23,6 +23,10 @@ ul {
     font-size: 18px;
 }
 
+.sidebar ul {
+    margin: 40px 0;
+}
+
 .sidebar p {
     font-size: 24px;
 }
