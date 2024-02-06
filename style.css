@@ -59,7 +59,7 @@ ul {
 
 .header-top {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding-left: 40px;
     align-items: center;
 }
@@ -75,6 +75,10 @@ ul {
     grid-template-columns: 50px 50px 140px;
     align-items: center;
     justify-content: end;
+}
+
+.header-top-right p {
+    font-weight: 700;
 }
 
 .header-top input {
@@ -93,8 +97,18 @@ ul {
 
 .header-bot-left {
     display: grid;
-    grid-template-columns: 60px 200px;
+    grid-template-columns: 60px 300px;
+    column-gap: 10px;
     align-items: center;
+}
+
+.header-bot-left p {
+    font-weight: 700;
+    font-size: small;
+}
+
+.header-bot-left p b {
+    font-size: large;
 }
 
 .header-bot-right {
@@ -112,6 +126,7 @@ ul {
     border-radius: 25px;
     border-style: none;
     height: 30px;
+    font-weight: bold;
 }
 
 .header img {
