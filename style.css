@@ -11,7 +11,7 @@ ul {
 
 .container {
     display: grid;
-    grid-template-columns: minmax(280px, 1fr) 4fr;
+    grid-template-columns: 250px 4fr;
     grid-template-rows: 1fr 5fr;
 }
 
