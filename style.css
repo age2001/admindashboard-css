@@ -56,6 +56,38 @@ ul {
     z-index: 100;
 }
 
+.header-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+.header-top-left {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    
+}
+
+.header-top-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-top input {
+    background-color: lightgrey;
+    border-style: none;
+    border-radius: 25px;
+}
+
+.header-bot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.header img {
+    border-radius: 50%;
+}
+
 .main-feed {
     grid-row: 2 / 3;
     display: grid;
