@@ -59,29 +59,50 @@ ul {
 .header-top {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-left: 40px;
     align-items: center;
+    column-gap: 100px;
 }
 .header-top-left {
     display: grid;
-    grid-template-columns: 1fr 9fr;
-    
+    grid-template-columns: 1fr 8fr;
+    align-items: center;
 }
 
 .header-top-right {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 50px 50px 150px;
+    align-items: center;
 }
 
 .header-top input {
     background-color: lightgrey;
     border-style: none;
     border-radius: 25px;
+    height: 25px;
 }
 
 .header-bot {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
+    padding-left: 40px;
+}
+
+.header-bot-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.header-bot-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.header-bot-right {
+    
 }
 
 .header img {
